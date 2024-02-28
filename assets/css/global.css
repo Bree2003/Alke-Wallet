@@ -11,20 +11,55 @@
     padding: 0;
 }
 body {
-    /* min-height: 100vh; */
+    min-height: 100vh;
     background-color: var(--color-violeta);
     color: white;
 }
 main{
-    margin: 20px;
+    min-height: 100vh;
+    padding: 20px;
 }
 .transparency {
     background-color: var(--color-transparente);
     padding: 15px 30px;
 
 }
+.encabezado h1 {
+    margin-bottom: 0;
+}
+.encabezado .btn-submit {
+    width: 90px;
+}
+.encabezado ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.encabezado a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
 .titulo {
     font-family: "Oleo Script Swash Caps", system-ui;
+}
+.menu nav {
+    background-color: rgb(136, 140, 145, 0.2);
+    margin: 100px 0;
+    border-radius: 5px;
+}
+.menu ul {
+    height: 100%;
+}
+.menu li {
+    height: 100%;
+
+}
+.menu li:hover {
+    background-color: var(--color-rosa);
+}
+.menu .focus {
+    background-color: rgba(99, 123, 146, 0.7);
 }
 .btn-submit {
     font-weight: bold;
@@ -34,4 +69,19 @@ main{
 .btn-submit:hover {
     color: white;
     background-color: #8a365a;
+}
+@media screen and (max-width: 800px) {
+    .encabezado nav {
+        display: none;
+    }
+}
+@media screen and (min-width: 801px) {
+    .menu {
+        max-width: 260px;
+        height: calc(100vh - 40px); 
+        flex-direction: column;
+    }
+    .menu .btn-submit {
+        width: 100%;
+    }
 }
