@@ -1,0 +1,41 @@
+header h1 {
+    margin-bottom: 0;
+}
+header ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+header a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+section{
+    margin-top: 30px;
+}
+img {
+    width: 100%;
+    max-width: 475px;
+}
+form {
+    min-width: 345px;
+    width: 100%;
+    max-width: 475px;
+}
+
+.form-text {
+    color: #9ba3ac;
+}
+form > h2 {
+    text-align: center;
+}
+form .btn-submit {
+    width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    nav {
+        display: none;
+    }
+}
