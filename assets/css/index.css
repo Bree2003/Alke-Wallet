@@ -1,0 +1,18 @@
+header{
+    background-color: var(--color-transparente);
+    padding: 10px 30px;
+
+}
+header h1 {
+    margin-bottom: 0;
+}
+header ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+header a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}

@@ -1,0 +1,37 @@
+:root {
+    --color-rojo: #ed6464;
+    --color-rosa: #bf6370;
+    --color-lila: #87586c;
+    --color-violeta: #574759;
+    --color-negro: #1a1b1c;
+    --color-transparente: rgba(26, 27, 28, 0.2);
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    /* min-height: 100vh; */
+    background-color: var(--color-violeta);
+    color: white;
+}
+main{
+    margin: 20px;
+}
+.transparency {
+    background-color: var(--color-transparente);
+    padding: 15px 30px;
+
+}
+.titulo {
+    font-family: "Oleo Script Swash Caps", system-ui;
+}
+.btn-submit {
+    font-weight: bold;
+    background-color: var(--color-lila);
+}
+
+.btn-submit:hover {
+    color: white;
+    background-color: #8a365a;
+}
