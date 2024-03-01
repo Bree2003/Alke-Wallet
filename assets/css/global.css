@@ -96,6 +96,9 @@ main{
     .contenedor {
         display: block;
     }
+    .seccion {
+        padding: 20px;
+    }
 }
 @media screen and (min-width: 801px) {
     .menu {
