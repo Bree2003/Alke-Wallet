@@ -35,8 +35,9 @@ main{
     padding-left: 0;
     margin-bottom: 0;
 }
-.encabezado a, .funciones a {
+.encabezado a, .encabezado li, .funciones li {
     text-decoration: none;
+    cursor: pointer;
     color: white;
     font-weight: bold;
 }
