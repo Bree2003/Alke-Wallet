@@ -12,4 +12,5 @@ Password: User123
 ## Technologies
 
 **Frameworks:** Bootstrap - jQuery
+
 **Stack:** HTML5 - CSS3 - JavaScript ES6
