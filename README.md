@@ -5,6 +5,7 @@ Virtual wallet, Talento Digital's project.
 This site was built using [GitHub Pages](https://bree2003.github.io/Alke-Wallet/).
 
 **User credentials**
+
 Email: user@gmail.com
 Password: User123
 
