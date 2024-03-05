@@ -1,5 +1,14 @@
 $(document).ready(function () {
-    // todo: link the href to the another views
+    // log in redirected
+    $("#login-btn").click(function () {
+        alert("Starting session...");
+        window.location.href = "assets/html/login.html";
+    });
+    // log out redirected
+    $("#logout-btn").click(function () {
+        alert("Ending session...");
+        window.location.href = "../../index.html";
+    });
     // menu redirected
     $("#menu").click(function () {
         alert("Being redirected to menu...");
