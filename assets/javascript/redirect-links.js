@@ -24,7 +24,7 @@ $(document).ready(function () {
         alert("Being redirected to send money...");
         window.location.href = "sendmoney.html";
     });
-    // transactions redirect
+    // transactions redirected
     $(".transactions").click(function () {
         alert("Being redirected to transactions...");
         window.location.href = "transactions.html";

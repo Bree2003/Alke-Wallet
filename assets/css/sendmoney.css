@@ -1,0 +1,30 @@
+.modal-header h1 {
+    margin-bottom: 0;
+}
+.modal-content {
+    background-color: var(--color-violeta);
+}
+.btn-quit {
+    font-weight: bold;
+    background-color: var(--color-rosa);
+    padding: 6px 12px;
+}
+.btn-quit:hover {
+    color: white;
+    background-color: var(--color-rojo);
+}
+.contacts li {
+    margin-bottom: 10px;
+}
+.contacto {
+    border-radius: 5px;
+    padding: 8px 10px;
+    cursor: pointer;
+}
+.contacto:hover {
+background-color: rgba(99, 123, 146, 0.7);
+}
+.contact-data {
+    width: 100%;
+    max-width: 170px;
+}
