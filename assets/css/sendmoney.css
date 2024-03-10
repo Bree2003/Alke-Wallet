@@ -28,3 +28,12 @@ background-color: rgba(99, 123, 146, 0.7);
     width: 100%;
     max-width: 170px;
 }
+/* Ocultar las flechas del input number */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type="number"] {
+    -moz-appearance: textfield; /* Firefox */
+}
