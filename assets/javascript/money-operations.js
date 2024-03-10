@@ -26,7 +26,7 @@ $(document).ready(function () {
             sessionStorage.setItem("balance", total);
             $("#balance").text("$" + total);
             addTransaction("You", amount, date);
-            alert("You have deposited " + amount + " pesos");
+            alert("You have deposited " + amount + " pesos, you can check in transactions");
             $("#amount").val("");
         } else {
             alert("The amount to be deposited must be greater than or equal to 5000 pesos");
@@ -49,7 +49,7 @@ $(document).ready(function () {
             sessionStorage.setItem("balance", total);
             $("#balance").text("$" + total);
             addTransaction(name, amount, date);
-            alert("You have transfered " + amount + " pesos");
+            alert("You have transfered " + amount + " pesos, you can check in transactions");
             $("#amount").val("");
         } else {
             alert("The amount to be transfered must be greater than or equal to 5000 pesos");
