@@ -21,6 +21,7 @@ $(document).ready(function () {
             bank: "Banco Estado"
         }
         saveContactData(contactData);
+        location.reload();
     }
 
     $("#addContact").submit(function (event) {
