@@ -1,0 +1,18 @@
+
+.list-transactions li {
+    margin-bottom: 10px;
+}
+.transaction {
+    border-radius: 5px;
+    padding: 8px 10px;
+}
+.transaction-data {
+    width: 100%;
+    max-width: 170px;
+}
+.increment {
+    border: solid 1px green !important;
+}
+.decrease {
+    border: solid 1px red !important;
+}

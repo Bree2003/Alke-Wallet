@@ -30,7 +30,7 @@ main{
 .encabezado .btn-submit {
     width: 90px;
 }
-.encabezado ul, .funciones ul, .contacts ul {
+.encabezado ul, .funciones ul, .contacts ul, .transactions ul {
     list-style: none;
     padding-left: 0;
     margin-bottom: 0;

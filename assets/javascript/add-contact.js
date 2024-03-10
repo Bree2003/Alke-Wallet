@@ -5,9 +5,9 @@ $(document).ready(function () {
 
     if (contacts) {    
         for (let i = 0; i < contacts.length; i++) {
-            $(".list-contacts").append(`
+            $(".list-contacts").prepend(`
             <li class="contacto border transparency d-flex justify-content-between" data-bs-toggle="modal" data-bs-target="#staticBackdrop2" id="${i}">
-            <span class="contact-data text-start">${contacts[i].name}</span>
+            <span class="contact-data text-start" id="name-contact">${contacts[i].name}</span>
             <span class="contact-data text-center">${contacts[i].rut}</span>
             <span class="contact-data text-end">${contacts[i].bank}</span>
             </li>
@@ -35,9 +35,9 @@ $(document).ready(function () {
             bank: banco
         }
         // todo: add the values on a new li contact append element
-        $(".list-contacts").append(`
+        $(".list-contacts").prepend(`
         <li class="contacto border transparency d-flex justify-content-between" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">
-        <span class="contact-data text-start">${nombre}</span>
+        <span class="contact-data text-start" id="name-contact">${nombre}</span>
         <span class="contact-data text-center">${rut}</span>
         <span class="contact-data text-end">${banco}</span>
         </li>
