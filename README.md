@@ -2,12 +2,13 @@
 
 Virtual wallet, Talento Digital's project.
 
+You can deposit, add new contact, transfer and automatically add transactions about your operations.
+
 This site was built using [GitHub Pages](https://bree2003.github.io/Alke-Wallet/).
 
 **User credentials**
 
-Email: user@gmail.com
-Password: User123
+Using sessionStorage, need to register then login.
 
 ## Technologies
 
