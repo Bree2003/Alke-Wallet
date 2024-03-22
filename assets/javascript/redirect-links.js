@@ -1,8 +1,18 @@
 $(document).ready(function () {
+
+    // capture the name value from session storage
+    let storedName = sessionStorage.getItem("name");
+    //  put in the name view
+    $("#nameView").text(`Hi, ${ storedName }!`);
     // log in redirected
     $("#login-btn").click(function () {
         alert("Starting session...");
-        window.location.href = "assets/html/login.html";
+        window.location.href = "login.html";
+    });
+    // register redirected
+    $("#register").click(function () {
+        alert("Being redirected to sign up...")
+        window.location.href = "/assets/html/register.html"
     });
     // log out redirected
     $("#logout-btn").click(function () {

@@ -1,0 +1,15 @@
+section {
+    margin-top: 30px;
+}
+section img {
+    width: 100%;
+    max-width: 475px;
+}
+form {
+    min-width: 345px;
+    width: 100%;
+    max-width: 475px;
+}
+form button {
+    width: 100%;
+}

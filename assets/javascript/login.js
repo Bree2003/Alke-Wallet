@@ -1,7 +1,6 @@
-// user credentials
-var email = "user@gmail.com";
-var password = "User123";
-
+// recover credentials in session storage
+var storedEmail = sessionStorage.getItem("email");
+var storedPassword = sessionStorage.getItem("password");
 // login form validation
 $(document).ready(function () {
     $("#loginForm").submit(function (event) {
@@ -12,13 +11,15 @@ $(document).ready(function () {
         let passwordInput = $("#password").val();
         
         // login validation
-        if (emailInput === email && passwordInput === password) {
+        if (emailInput === storedEmail && passwordInput === storedPassword) {
             alert("Beign redirected to menu...");
             window.location.href = "menu.html";
         } else if (emailInput === "" && passwordInput === "") {
             alert("Credentials are empty");
+        } else if (!storedEmail && !storedPassword) {
+            alert("You need to register");
         }
-            else {
+        else {
             $("#email").addClass("wrong-input");
             $("#password").addClass("wrong-input");
             $("#credentials").addClass("wrong-span");
